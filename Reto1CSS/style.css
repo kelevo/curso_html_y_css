@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100vw;
+    height: vh;
+    background-color: purple;
+}
+
+.main-content {
+    background-color: brown;
+    position: relative;
+    top: 30vh;
+    margin-left: auto;
+    margin-top: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.texto1 {
+    position: absolute;
+    left: 120px;
+    border-radius: 8px;
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+    border: 5px black;
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    
+}
+
+.texto2 {
+    position: relative;
+    top: 40px;
+    border-radius: 20px;
+    padding: 80px 10px;
+    text-align: center;
+    color: black;
+    border: 5px black;
+    background-color: grey;
+    width: 450px;
+    height: 300px;
+    
+}
+

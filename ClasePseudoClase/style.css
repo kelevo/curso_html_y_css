@@ -1,0 +1,34 @@
+.main-nav {
+    margin-top: 10px;
+    list-style: none; /*Quita los bulles de las listas (puntos)*/
+    padding-left: 0%;
+    background-color: pink;
+}
+
+/*Ordena los items en linas y no en columnas*/
+.main-nav__item {
+    display: inline-block;
+}
+
+/*Afecta directo a los a de main-nav__item CCS directo*/
+.main-nav__item a {
+    color: black;
+    padding: 5px; /*Espacio entre ellos mismos*/
+    border-radius: 2px; /*curva las esquinas del contenedor de cada a*/
+    text-decoration: none; /*Quita la linea de remarcado de link*/
+}
+
+/*Pseudo clases a:hover*/
+.main-nav__item a:hover {
+    /*Cuando exista el efecto hover cambiara el color de la clase*/
+    color: aqua;
+}
+
+.main-nav__item a:active {
+    color: red;
+}
+
+/*Pseudo elmentos se mandan a llamar con ::*/
+.main-nav__item a::after {
+    content: " | "; /*Despues del elemento agrega algo*/
+}

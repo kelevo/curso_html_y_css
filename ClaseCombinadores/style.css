@@ -1,0 +1,25 @@
+/*A todos los p que esten cerca de un h2 aplicar color red*/
+/*
+h2 + p {
+    color: red;
+}
+*/
+
+/*A todos los hermanos p que sean hermanos generales de h2 
+aplicar color red*/
+/*
+h2 ~ p {
+    color: red;
+}
+*/
+
+/*Child - La etiqueta p que sea hija directa
+de la etiqueta div*/
+div > p {
+    color: red;
+}
+
+/*Descendiente*/
+article p {
+    color: aqua;
+}
